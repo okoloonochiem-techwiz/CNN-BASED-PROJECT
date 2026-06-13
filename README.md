@@ -32,7 +32,7 @@ This project uses a Convolutional Neural Network (CNN) model to identify potato 
 4. The result is sent to Blynk and displayed on the dashboard {app interface}.
 
 ## Screenshots
-(Add screenshots here)
+it shows the snapshot of my progress while carrying the project 
 
 ## Author
 Okolo Onochie Isaiah
