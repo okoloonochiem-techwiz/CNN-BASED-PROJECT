@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Plant Disease Detection</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 40px; }
+    img { margin-top: 20px; border-radius: 10px; max-width: 300px; }
+  </style>
+</head>
+<body>
+  <h1>🌿 Plant Disease Detection using CNN</h1>
+  <form action="/predict" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*" required>
+    <br><br>
+    <input type="submit" value="Predict">
+  </form>
+
+  {% if prediction %}
+    <h2>{{ prediction }}</h2>
+    <img src="{{ img_path }}" alt="Uploaded Image">
+  {% endif %}
+</body>
+</html>
