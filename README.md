@@ -1,4 +1,4 @@
-# CNN-Based Potato Disease Detection
+# Potato Disease Detection using  (convolutional neural network) CNN..
 
 ## Project Overview
 This project uses a Convolutional Neural Network (CNN) model to identify potato plant diseases from images. The prediction results are displayed through the Blynk IoT platform for remote monitoring.
